@@ -29,7 +29,7 @@ lyricsPanel axios for API
 - 表頭與表尾固定在上下位置，美化版面。
 
 ## 介面展示
-![image](https://github.com/tomy5566/KH_travel/blob/main/KH_readmegif.gif)
+![image](https://github.com/tomy5566/lyricsPanel/blob/main/Lyrics_demo_gif.gif)
 
 
 ## 參考資料
