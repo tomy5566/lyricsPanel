@@ -30,8 +30,8 @@ function display_songlist() {
   let str='';
   album.tracks.forEach( function(song){
     // console.log("37"+song);
-    str += `<li>
-            <a class="nav-link" href="#" role="tab">${song}</a>
+    str += `<li class='mt-3'>
+            <a class="nav-link" href="#" role="tab" >${song}</a>
             </li>`;
     // console.log("41"+str);
     songList.innerHTML = str;
@@ -77,7 +77,7 @@ songList.addEventListener('click' , function(e){
 
 function displayLyrics(song, lyrics) {
   lyricsPanel.innerHTML = `
-    <h3>${song}</h3>
+    <h3 class='mt-3'>${song}</h3>
     <pre>${lyrics}</pre> 
   `
 }
