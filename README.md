@@ -19,8 +19,8 @@ lyricsPanel axios for API
 1. 使用 AJAX : [axios](https://github.com/axios/axios)串接歌詞的 API，取得經典專輯ADELE 25資料。
 2. 使用[Bootstrap](https://getbootstrap.com/)建立版型，包含導覽列，歌曲點選，歌詞顯示區域。
 3. 建立動態歌曲選單陣列，並利用 [Element.innerHTML](https://developer.mozilla.org/zh-TW/docs/Web/API/Element/innerHTML) 渲染左側歌曲名稱選單。
-4. 使用 [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) 變動元素標籤，創造視覺互動效果。
-
+4. 使用 [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) 變動元素標籤，創造視覺互動效果。表頭與表尾固定在上下位置
+5. 利用 [CSS position fixed](https://www.w3schools.com/css/css_positioning.asp) 設計表頭與表尾的固定位置。
 
 ## 功能介紹
 - 左側選單顯示 [Adele 的經典專輯 25 ](https://en.wikipedia.org/wiki/25_(Adele_album))的曲目。
