@@ -78,6 +78,7 @@ songList.addEventListener('click' , function(e){
 function displayLyrics(song, lyrics) {
   lyricsPanel.innerHTML = `
     <h3 class='mt-3'>${song}</h3>
+    <br>
     <pre>${lyrics}</pre> 
   `
 }

@@ -52,12 +52,80 @@ table {
 
 body {
   overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+.pagetitle{
+	color: #dadada;
+	text-decoration: none;
+	font-size: larger;
 }
 
 .lyrics-box {
   border: 1px solid #dadada;
 }
 
+.warp{	
+	position: relative;
+	max-width: 100%;
+	height: 100vh;
+	z-index: 10;
+	/* opacity :1;
+	background-image: url("https://media.newyorker.com/photos/6169d1caf9c7cf02c89a9454/master/w_2560%2Cc_limit/Battan-AdeleEasyOnMe-2.jpg"); */
+}
+
+/* 使用 僞元素 + Position 創造圖片透明感，
+在父元素建立僞元素，並把置入圖片的任務交給僞元素。
+在僞元素上設定 opacity，使用 position */
+
+
+.warp::before {
+	content: "";
+	display: block;
+	background-size: cover;
+	background-image: url(https://media.newyorker.com/photos/6169d1caf9c7cf02c89a9454/master/w_2560%2Cc_limit/Battan-AdeleEasyOnMe-2.jpg);
+	height: 100vh;
+	width: 100%;
+	opacity: 0.5;
+	position: absolute;
+	/* 偏移值皆設為 0，讓僞元素跟父元素一樣大小 */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.warp .container {
+	position: relative;
+  }
+
+
+
+
+/* .container .custom-container-width */
+#bigbackground{
+	/* max-width: 100vh; */
+	/* background-color: aqua; */
+}
+
+
+#lyrics-panel{
+	overflow-y: auto;
+	height: 100vh;
+	padding-bottom: 5vh;
+	font-size: 24px;
+	
+}
+
+#lyrics-panel h3{
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+/* 讓捲軸透明 */
+::-webkit-scrollbar {
+	display: none; /* Chrome Safari */
+  }
 
 /* ----我是分隔----- */
 
