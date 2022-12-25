@@ -26,7 +26,7 @@ lyricsPanel axios for API
 - 左側選單顯示 [Adele 的經典專輯 25 ](https://en.wikipedia.org/wiki/25_(Adele_album))的曲目。
 - 點選左側曲目，歌詞內容和曲目名稱，會顯示在右側欄位中。
 - 點選左側曲目時，會有色彩變化清楚知道該曲目已被選取。
-- 表頭與表尾固定在上下位置，美化版面。
+- 表頭與表尾固定在上下位置，放置背景圖片，美化版面。
 
 ## 介面展示
 ![image](https://github.com/tomy5566/lyricsPanel/blob/main/Lyrics_demo_gif.gif)
