@@ -1,4 +1,4 @@
-# lyricsPanel : axios歌詞串接API練習 練習專案readme
+# 歌詞串接API練習專案 Readme
 lyricsPanel axios for API
 
 ## 主要介紹
